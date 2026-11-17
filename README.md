@@ -1,3 +1,8 @@
+# Identitas
+
+- **Nama**: I Made Priyandika Adiyatma Putra Sari
+- **NIM**: F1D02410008
+
 # SKS: Sistem Kasir Sederhana
 Aplikasi Kasir Kafe / Kantin Kampus Berbasis Java Swing (GUI)
 
@@ -26,12 +31,12 @@ Proyek ini dibangun untuk memenuhi kriteria eksplorasi Graphical User Interface 
 
 ### 3. Atomic Component Class
 * **JLabel**: Menampilkan teks statis pembimbing form, label menu, dan teks total bayar.
-* **JTextField**: 
+* **JTextField**:
   * `txtNama`: Input teks nama pelanggan.
   * `txtJumlah`: Input kuantitas pesanan.
 * **JComboBox**: Menu dropdown untuk memilih daftar menu makanan/minuman beserta harganya.
 * **JRadioButton & ButtonGroup**: Pilihan eksklusif tipe pesanan (Dine-in vs Takeaway).
-* **JCheckBox**: Pilihan opsi tambahan yang bisa dipilih lebih dari satu (Ekstra Shot dan Ekstra Topping).
+* **JCheckBox**: Pilihan opsi tambahan yang bisa dipilih lebih dari satu (Ekstra **Shot Espresso** dan Ekstra **Topping**).
 * **JButton**: Tombol aksi interaktif (Tambah Pesanan, Reset Form, dan Bayar / Selesai).
 * **JTextArea**: Menampilkan lembar struk kasir digital dengan font monospace `Consolas`.
 * **JOptionPane**: Menampilkan kotak dialog validasi peringatan dan dialog konfirmasi transaksi.
@@ -44,8 +49,8 @@ Aplikasi ini mengimplementasikan 3 jenis layout manager:
 
 ### 5. Event Listener
 Aplikasi mengimplementasikan 2 interface listener:
-* **ActionListener**: Meng-override method `actionPerformed` untuk menangani logika klik tombol Tambah, Reset, dan Bayar.
-* **MouseListener**: Meng-override method `mouseEntered` dan `mouseExited` untuk memberikan efek visual perubahan warna (hover) saat kursor mouse melintas di atas tombol.
+* **ActionListener**: Meng‑override method `actionPerformed` untuk menangani logika klik tombol Tambah, Reset, dan Bayar.
+* **MouseListener**: Meng‑override method `mouseEntered` dan `mouseExited` untuk memberikan efek visual perubahan warna (hover) saat kursor mouse melintas di atas tombol.
 
 ---
 
@@ -53,12 +58,12 @@ Aplikasi mengimplementasikan 2 interface listener:
 
 ### 1. Kompilasi Kode:
 ```bash
-javac -d bin src/SistemKasirSederhana.java
+javac -d bin src/SistemKasirSederjana.java
 ```
 
 ### 2. Jalankan Aplikasi:
 ```bash
-java -cp bin SistemKasirSederhana
+java -cp bin SistemKasirSederjana
 ```
 
 ---
