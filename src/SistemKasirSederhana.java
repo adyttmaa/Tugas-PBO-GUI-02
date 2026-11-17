@@ -113,10 +113,10 @@ public class SistemKasirSederhana extends JFrame implements ActionListener, Mous
         btnReset = new JButton("Reset Form");
         btnTambah.setFont(fontLabel);
         btnReset.setFont(fontLabel);
-        btnTambah.setBackground(new Color(45, 45, 45));
-        btnTambah.setForeground(Color.WHITE);
-        btnReset.setBackground(new Color(108, 117, 125));
-        btnReset.setForeground(Color.WHITE);
+        btnTambah.setForeground(Color.BLACK);
+        btnReset.setForeground(Color.BLACK);
+        btnTambah.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        btnReset.setCursor(new Cursor(Cursor.HAND_CURSOR));
         btnTambah.addActionListener(this);
         btnTambah.addMouseListener(this);
         btnReset.addActionListener(this);
@@ -151,8 +151,8 @@ public class SistemKasirSederhana extends JFrame implements ActionListener, Mous
 
         btnBayar = new JButton("Bayar / Selesai");
         btnBayar.setFont(fontLabel);
-        btnBayar.setBackground(new Color(40, 167, 69));
-        btnBayar.setForeground(Color.WHITE);
+        btnBayar.setForeground(Color.BLACK);
+        btnBayar.setCursor(new Cursor(Cursor.HAND_CURSOR));
         btnBayar.addActionListener(this);
         btnBayar.addMouseListener(this);
 
@@ -265,22 +265,22 @@ public class SistemKasirSederhana extends JFrame implements ActionListener, Mous
     @Override
     public void mouseEntered(MouseEvent e) {
         if (e.getSource() == btnTambah) {
-            btnTambah.setBackground(new Color(70, 70, 70));
+            btnTambah.setForeground(new Color(0, 102, 204)); // Biru saat disorot kursor
         } else if (e.getSource() == btnReset) {
-            btnReset.setBackground(new Color(130, 138, 145));
+            btnReset.setForeground(new Color(220, 53, 69)); // Merah saat disorot kursor
         } else if (e.getSource() == btnBayar) {
-            btnBayar.setBackground(new Color(46, 184, 78));
+            btnBayar.setForeground(new Color(40, 167, 69)); // Hijau saat disorot kursor
         }
     }
 
     @Override
     public void mouseExited(MouseEvent e) {
         if (e.getSource() == btnTambah) {
-            btnTambah.setBackground(new Color(45, 45, 45));
+            btnTambah.setForeground(Color.BLACK);
         } else if (e.getSource() == btnReset) {
-            btnReset.setBackground(new Color(108, 117, 125));
+            btnReset.setForeground(Color.BLACK);
         } else if (e.getSource() == btnBayar) {
-            btnBayar.setBackground(new Color(40, 167, 69));
+            btnBayar.setForeground(Color.BLACK);
         }
     }
 
