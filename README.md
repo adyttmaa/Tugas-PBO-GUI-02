@@ -71,7 +71,7 @@ java -cp bin SistemKasirSederjana
 ## Screenshot Aplikasi
 
 ### 1. Tampilan Awal Aplikasi
-![Tampilan Awal](screenshot\01-Tampilan%20Awal.png)
+![Tampilan Awal](screenshot/01-Tampilan%20Awal.png)
 
 ### 2. Tambah Pesanan
 ![Tambah Pesanan](screenshot/02-Tambah%20Pesanan.png)
